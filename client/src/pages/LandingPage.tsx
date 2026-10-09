@@ -227,7 +227,7 @@ export const LandingPage: React.FC = () => {
             Your intelligent cycling companion for tracking rides, discovering better routes, improving performance, and riding safer.
           </Typography>
 
-          <Stack direction={{ xs: 'column', sm: 'row' }} spacing={2} justifyContent="center" sx={{ mb: 6 }}>
+          <Stack direction={{ xs: 'column', sm: 'row' }} spacing={2} sx={{ mb: 6, justifyContent: 'center' }}>
             <Button
               variant="contained"
               color="primary"
