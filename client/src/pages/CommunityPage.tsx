@@ -21,7 +21,7 @@ import {
 import {
   Favorite,
   FavoriteBorder,
-  ChatBubbleOutline,
+  ChatBubbleOutlineOutlined as ChatBubbleOutline,
   Share,
   Add,
   Send,
