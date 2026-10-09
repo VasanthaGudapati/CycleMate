@@ -18,7 +18,7 @@ import {
   Visibility,
   VisibilityOff,
   DirectionsBike,
-  PersonOutline,
+  PersonOutlined,
   EmailOutlined,
   LockOutlined,
 } from '@mui/icons-material';
@@ -135,7 +135,7 @@ export const RegisterPage: React.FC = () => {
               InputProps={{
                 startAdornment: (
                   <InputAdornment position="start">
-                    <PersonOutline sx={{ color: 'text.secondary', fontSize: 20 }} />
+                    <PersonOutlined sx={{ color: 'text.secondary', fontSize: 20 }} />
                   </InputAdornment>
                 ),
               }}
