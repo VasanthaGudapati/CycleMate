@@ -264,7 +264,7 @@ export const LandingPage: React.FC = () => {
                   <Typography variant="h4" fontWeight={800} color="primary.main" sx={{ fontFamily: "'Outfit', sans-serif" }}>
                     {stat.value}
                   </Typography>
-                  <Typography variant="caption" color="text.secondary" fontWeight={600} textTransform="uppercase">
+                  <Typography variant="caption" color="text.secondary" sx={{ fontWeight: 600, textTransform: 'uppercase' }}>
                     {stat.label}
                   </Typography>
                 </Paper>
@@ -328,7 +328,7 @@ export const LandingPage: React.FC = () => {
                     <Typography variant="h6" fontWeight={700} gutterBottom>
                       {feat.title}
                     </Typography>
-                    <Typography variant="body2" color="text.secondary" lineHeight={1.6}>
+                    <Typography variant="body2" color="text.secondary" sx={{ lineHeight: 1.6 }}>
                       {feat.desc}
                     </Typography>
                   </CardContent>
